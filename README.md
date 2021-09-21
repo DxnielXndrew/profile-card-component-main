@@ -19,11 +19,6 @@ Live Site URL: []()
 
 - Build out the project to the designs provided
 
-### Screenshot
-
-![](images/Screenshot.jpg)
-
-
 ### Links
 
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
