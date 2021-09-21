@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+* {
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: 18px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: hsl(185, 75%, 39%);
+  overflow: hidden;
+}
+
+main {
+  width: 100%;
+  height: 100vh;
+}
+
+main > img {
+  z-index: -1;
+}
+
+main > img:nth-child(1) {
+  position: absolute;
+  width: 620px;
+  top: -300px;
+}
+
+main > img:nth-child(3) {
+  position: absolute;
+  width: 630px;
+  right: 0;
+  bottom: -300px;
+}
+
+
+span {
+  color: hsl(0, 0%, 59%);
+}
+
+p {
+  color: hsl(0, 0%, 59%);
+}
+
+hr {
+  opacity: 0.3
+}
+
+.box {
+  border-radius: 16px;
+  width: max-content;
+  background-color: white;
+  margin: 120px auto;
+  box-shadow: 1px 1px 24px hsl(185, 75%, 28%);
+  z-index: 1;
+}
+
+
+.top, .top img {
+  border-radius: 16px 16px 0 0;
+}
+
+.victor-img {
+  text-align: center;
+  border-radius: 60px;
+  position: relative;
+  height: 56px;
+}
+.victor-img img {
+  text-align: center;
+  border-radius: 60px;
+  position: absolute;
+  right: 130px;
+  bottom: 10px;
+  border: 6px solid white;
+}
+
+.box h1 {
+  text-align: center;
+  color: #333;
+}
+.box p {
+  text-align: center;
+  font-size: 14px;
+}
+
+.name p {
+  margin-top: -4px;
+  margin-bottom: 24px;
+}
+
+
+
+.numbers {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+.numbers p {
+  font-size: 12px;
+  margin-top: -12px;
+  margin-bottom: 24px;
+}
