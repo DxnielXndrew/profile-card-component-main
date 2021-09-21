@@ -23,13 +23,13 @@ main > img {
 
 main > img:nth-child(1) {
   position: absolute;
-  width: 620px;
+  width: 640px;
   top: -300px;
 }
 
 main > img:nth-child(3) {
   position: absolute;
-  width: 630px;
+  width: 620px;
   right: 0;
   bottom: -300px;
 }
@@ -51,8 +51,8 @@ hr {
   border-radius: 16px;
   width: max-content;
   background-color: white;
-  margin: 120px auto;
-  box-shadow: 1px 1px 24px hsl(185, 75%, 28%);
+  margin: 140px auto;
+  box-shadow: 1px 1px 12px hsl(185, 70%, 36%);
   z-index: 1;
 }
 
@@ -101,4 +101,7 @@ hr {
   font-size: 12px;
   margin-top: -12px;
   margin-bottom: 24px;
+}
+.numbers h2 {
+  color: #333;
 }
